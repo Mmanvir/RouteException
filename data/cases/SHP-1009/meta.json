@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-1009",
+  "tracking_id": "RX10009",
+  "customer_first_name": "Chasmum",
+  "address": "House 179, Greenfield Enclave, Navpur",
+  "gate_number": "179",
+  "address_lat": 30.701178,
+  "address_lon": 76.670322,
+  "promised_by": "2026-10-03 20:14:00",
+  "driver": {
+    "id": "DRV-291",
+    "name": "Frado Garde",
+    "phone": "9000068199"
+  },
+  "synthetic": true
+}

@@ -1,0 +1,6 @@
+timestamp,status,location,lat,lon
+2026-10-25 09:46:00,created,Navpur Sort Centre,,
+2026-10-25 12:12:00,picked_up,Navpur Sort Centre,,
+2026-10-25 18:11:00,in_transit,Kesar Gardens Hub,,
+2026-10-26 09:32:04,out_for_delivery,Kesar Gardens Hub,,
+2026-10-26 12:26:57,delivered,Kesar Gardens,30.709922,76.69932

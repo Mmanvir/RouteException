@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-9007",
+  "tracking_id": "RX18007",
+  "customer_first_name": "Rudra",
+  "address": "House 555, Sunrise Colony, Navpur",
+  "gate_number": "555",
+  "address_lat": 30.710023,
+  "address_lon": 76.700345,
+  "promised_by": "2026-10-19 19:03:00",
+  "driver": {
+    "id": "DRV-519",
+    "name": "Ayush Sane",
+    "phone": "9000039499"
+  },
+  "synthetic": true
+}

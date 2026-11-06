@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1025",
+  "tracking_id": "RX10025",
+  "customer_first_name": "Aarush",
+  "address": "House 258, Lotus Vihar, Navpur",
+  "gate_number": "258",
+  "address_lat": 30.702596,
+  "address_lon": 76.664195,
+  "promised_by": "2026-10-08 19:27:00",
+  "driver": {
+    "id": "DRV-975",
+    "name": "Indira Atwal",
+    "phone": "9000056139"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-08 12:12:02",
+  "driver_note_recorded_at": "2026-10-08 12:16:02",
+  "transcript_is_cached": true
+}

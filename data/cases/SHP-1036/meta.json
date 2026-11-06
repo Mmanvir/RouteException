@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-1036",
+  "tracking_id": "RX10036",
+  "customer_first_name": "Eesha",
+  "address": "House 545, Kesar Gardens, Navpur",
+  "gate_number": "545",
+  "address_lat": 30.731346,
+  "address_lon": 76.687848,
+  "promised_by": "2026-10-15 05:26:00",
+  "driver": {
+    "id": "DRV-864",
+    "name": "Caleb Date",
+    "phone": "9000082133"
+  },
+  "synthetic": true
+}

@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1040",
+  "tracking_id": "RX10040",
+  "customer_first_name": "Tristan",
+  "address": "House 17, Silver Oak Phase 2, Navpur",
+  "gate_number": "17",
+  "address_lat": 30.719516,
+  "address_lon": 76.684909,
+  "promised_by": "2026-10-03 19:20:00",
+  "driver": {
+    "id": "DRV-581",
+    "name": "Samaksh Chandra",
+    "phone": "9000018774"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-03 13:07:48"
+}

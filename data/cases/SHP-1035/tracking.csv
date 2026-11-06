@@ -1,0 +1,6 @@
+timestamp,status,location,lat,lon
+2026-10-19 09:08:00,created,Navpur Sort Centre,,
+2026-10-19 11:10:00,picked_up,Navpur Sort Centre,,
+2026-10-19 17:29:00,in_transit,Lotus Vihar Hub,,
+2026-10-21 19:06:52,out_for_delivery,Lotus Vihar Hub,,
+2026-10-21 21:02:17,delivered,Lotus Vihar,30.711297,76.730347

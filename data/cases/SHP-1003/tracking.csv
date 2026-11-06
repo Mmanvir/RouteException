@@ -1,0 +1,6 @@
+timestamp,status,location,lat,lon
+2026-10-12 10:13:00,created,Navpur Sort Centre,,
+2026-10-12 12:49:00,picked_up,Navpur Sort Centre,,
+2026-10-12 18:39:00,in_transit,Greenfield Enclave Hub,,
+2026-10-13 09:46:53,out_for_delivery,Greenfield Enclave Hub,,
+2026-10-13 14:46:11,delivered,Greenfield Enclave,30.726387,76.730449

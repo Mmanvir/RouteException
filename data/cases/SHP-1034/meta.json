@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-1034",
+  "tracking_id": "RX10034",
+  "customer_first_name": "Gaurangi",
+  "address": "House 503, Kesar Gardens, Navpur",
+  "gate_number": "503",
+  "address_lat": 30.66361,
+  "address_lon": 76.702231,
+  "promised_by": "2026-10-03 06:14:00",
+  "driver": {
+    "id": "DRV-117",
+    "name": "Utkarsh Dash",
+    "phone": "9000010688"
+  },
+  "synthetic": true
+}

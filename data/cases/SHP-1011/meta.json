@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1011",
+  "tracking_id": "RX10011",
+  "customer_first_name": "Charan",
+  "address": "House 606, Riverside Block, Navpur",
+  "gate_number": "606",
+  "address_lat": 30.733199,
+  "address_lon": 76.682635,
+  "promised_by": "2026-10-17 20:09:00",
+  "driver": {
+    "id": "DRV-148",
+    "name": "Alexander Seth",
+    "phone": "9000089273"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-17 13:54:21",
+  "driver_note_recorded_at": "2026-10-17 13:53:21",
+  "transcript_is_cached": true
+}

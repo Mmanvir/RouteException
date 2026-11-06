@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1030",
+  "tracking_id": "RX10030",
+  "customer_first_name": "Vansha",
+  "address": "House 658, Kesar Gardens, Navpur",
+  "gate_number": "658",
+  "address_lat": 30.709902,
+  "address_lon": 76.699046,
+  "promised_by": "2026-10-26 19:46:00",
+  "driver": {
+    "id": "DRV-247",
+    "name": "Viraj Pillay",
+    "phone": "9000072629"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-26 12:28:57",
+  "driver_note_recorded_at": "2026-10-26 12:28:57",
+  "transcript_is_cached": true
+}

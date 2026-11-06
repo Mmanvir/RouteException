@@ -1,0 +1,9 @@
+{
+  "name": "RouteException Driver",
+  "short_name": "RX Driver",
+  "start_url": "/driver",
+  "display": "standalone",
+  "background_color": "#f3f4f7",
+  "theme_color": "#1f5eff",
+  "icons": []
+}

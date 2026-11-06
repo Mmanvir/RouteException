@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1002",
+  "tracking_id": "RX10002",
+  "customer_first_name": "Ethan",
+  "address": "House 460, Silver Oak Phase 2, Navpur",
+  "gate_number": "460",
+  "address_lat": 30.757964,
+  "address_lon": 76.722629,
+  "promised_by": "2026-10-21 19:43:00",
+  "driver": {
+    "id": "DRV-359",
+    "name": "Aachal Zacharia",
+    "phone": "9000028026"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-21 13:48:41"
+}

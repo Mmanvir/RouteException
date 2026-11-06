@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-1024",
+  "tracking_id": "RX10024",
+  "customer_first_name": "Azad",
+  "address": "House 231, Kesar Gardens, Navpur",
+  "gate_number": "231",
+  "address_lat": 30.67618,
+  "address_lon": 76.698459,
+  "promised_by": "2026-10-24 19:11:00",
+  "driver": {
+    "id": "DRV-646",
+    "name": "Nirja Sharma",
+    "phone": "9000052960"
+  },
+  "synthetic": true
+}

@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1014",
+  "tracking_id": "RX10014",
+  "customer_first_name": "Advik",
+  "address": "House 556, Lotus Vihar, Navpur",
+  "gate_number": "556",
+  "address_lat": 30.704023,
+  "address_lon": 76.721265,
+  "promised_by": "2026-10-21 19:19:00",
+  "driver": {
+    "id": "DRV-227",
+    "name": "Naksh Lanka",
+    "phone": "9000033391"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-21 12:35:47",
+  "driver_note_recorded_at": "2026-10-21 12:37:47",
+  "transcript_is_cached": true
+}

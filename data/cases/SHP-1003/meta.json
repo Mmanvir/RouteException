@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1003",
+  "tracking_id": "RX10003",
+  "customer_first_name": "Gauri",
+  "address": "House 281, Greenfield Enclave, Navpur",
+  "gate_number": "281",
+  "address_lat": 30.733027,
+  "address_lon": 76.728855,
+  "promised_by": "2026-10-13 20:13:00",
+  "driver": {
+    "id": "DRV-562",
+    "name": "Kashish Rau",
+    "phone": "9000029820"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-13 14:48:11",
+  "driver_note_recorded_at": "2026-10-13 14:48:11",
+  "transcript_is_cached": true
+}

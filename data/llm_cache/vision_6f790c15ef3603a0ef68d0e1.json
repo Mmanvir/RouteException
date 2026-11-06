@@ -1,0 +1,8 @@
+{
+  "door_visible": true,
+  "package_visible": false,
+  "gate_number": "201",
+  "damage_visible": false,
+  "scene": "closed gate, no parcel",
+  "confidence": 0.9
+}

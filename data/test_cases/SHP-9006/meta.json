@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-9006",
+  "tracking_id": "RX18006",
+  "customer_first_name": "Pranav",
+  "address": "House 71, Sunrise Colony, Navpur",
+  "gate_number": "71",
+  "address_lat": 30.705877,
+  "address_lon": 76.724184,
+  "promised_by": "2026-10-19 19:43:00",
+  "driver": {
+    "id": "DRV-563",
+    "name": "Ekaja Dalal",
+    "phone": "9000035280"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-19 12:00:50",
+  "driver_note_recorded_at": "2026-10-19 11:58:50",
+  "transcript_is_cached": true
+}

@@ -1,0 +1,6 @@
+timestamp,status,location,lat,lon
+2026-10-18 10:02:00,created,Navpur Sort Centre,,
+2026-10-18 12:08:00,picked_up,Navpur Sort Centre,,
+2026-10-18 18:23:00,in_transit,Sunrise Colony Hub,,
+2026-10-19 09:36:14,out_for_delivery,Sunrise Colony Hub,,
+2026-10-19 12:34:33,attempted,Sunrise Colony,30.723922,76.661368

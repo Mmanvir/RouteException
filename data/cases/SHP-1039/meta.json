@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1039",
+  "tracking_id": "RX10039",
+  "customer_first_name": "Sachi",
+  "address": "House 610, Kesar Gardens, Navpur",
+  "gate_number": "610",
+  "address_lat": 30.69461,
+  "address_lon": 76.698585,
+  "promised_by": "2026-10-19 19:07:00",
+  "driver": {
+    "id": "DRV-218",
+    "name": "Sachi Bedi",
+    "phone": "9000068101"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-19 11:53:16",
+  "driver_note_recorded_at": "2026-10-19 11:53:16",
+  "transcript_is_cached": true
+}

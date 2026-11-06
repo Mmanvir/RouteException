@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-9002",
+  "tracking_id": "RX18002",
+  "customer_first_name": "Amara",
+  "address": "House 24, Maple Nagar, Navpur",
+  "gate_number": "24",
+  "address_lat": 30.690893,
+  "address_lon": 76.677029,
+  "promised_by": "2026-10-19 20:01:00",
+  "driver": {
+    "id": "DRV-109",
+    "name": "Ayaan Bhandari",
+    "phone": "9000055217"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-19 13:50:26",
+  "driver_note_recorded_at": "2026-10-19 13:52:26",
+  "transcript_is_cached": true
+}

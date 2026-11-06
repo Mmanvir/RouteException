@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1026",
+  "tracking_id": "RX10026",
+  "customer_first_name": "Ranveer",
+  "address": "House 131, Lotus Vihar, Navpur",
+  "gate_number": "131",
+  "address_lat": 30.731386,
+  "address_lon": 76.724479,
+  "promised_by": "2026-10-13 19:49:00",
+  "driver": {
+    "id": "DRV-350",
+    "name": "Lakshmi Handa",
+    "phone": "9000065674"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-13 13:36:07",
+  "driver_note_recorded_at": "2026-10-13 13:34:07",
+  "transcript_is_cached": true
+}

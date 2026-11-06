@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1004",
+  "tracking_id": "RX10004",
+  "customer_first_name": "Qadim",
+  "address": "House 72, Silver Oak Phase 2, Navpur",
+  "gate_number": "72",
+  "address_lat": 30.718458,
+  "address_lon": 76.747199,
+  "promised_by": "2026-10-12 19:43:00",
+  "driver": {
+    "id": "DRV-669",
+    "name": "Wriddhish Swaminathan",
+    "phone": "9000021986"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-12 11:30:37"
+}

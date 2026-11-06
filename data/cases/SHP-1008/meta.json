@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1008",
+  "tracking_id": "RX10008",
+  "customer_first_name": "Utkarsh",
+  "address": "House 218, Orchid Residency, Navpur",
+  "gate_number": "218",
+  "address_lat": 30.715083,
+  "address_lon": 76.687281,
+  "promised_by": "2026-10-09 19:15:00",
+  "driver": {
+    "id": "DRV-682",
+    "name": "Hardik Ramanathan",
+    "phone": "9000017608"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-09 13:21:46",
+  "driver_note_recorded_at": "2026-10-09 13:19:46",
+  "transcript_is_cached": true
+}

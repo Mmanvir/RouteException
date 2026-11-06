@@ -1,0 +1,6 @@
+timestamp,status,location,lat,lon
+2026-10-03 09:32:00,created,Navpur Sort Centre,,
+2026-10-03 12:06:00,picked_up,Navpur Sort Centre,,
+2026-10-03 17:53:00,in_transit,Maple Nagar Hub,,
+2026-10-04 09:17:10,out_for_delivery,Maple Nagar Hub,,
+2026-10-04 13:42:20,delivered,Maple Nagar,30.700155,76.758521

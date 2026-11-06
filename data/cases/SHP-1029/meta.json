@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1029",
+  "tracking_id": "RX10029",
+  "customer_first_name": "Chaitaly",
+  "address": "House 201, Sunrise Colony, Navpur",
+  "gate_number": "201",
+  "address_lat": 30.744323,
+  "address_lon": 76.711756,
+  "promised_by": "2026-10-03 19:43:00",
+  "driver": {
+    "id": "DRV-404",
+    "name": "Laksh Shere",
+    "phone": "9000083903"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-03 11:30:01",
+  "driver_note_recorded_at": "2026-10-03 11:31:01",
+  "transcript_is_cached": true
+}

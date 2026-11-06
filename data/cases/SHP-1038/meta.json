@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1038",
+  "tracking_id": "RX10038",
+  "customer_first_name": "Samarth",
+  "address": "House 532, Riverside Block, Navpur",
+  "gate_number": "532",
+  "address_lat": 30.674478,
+  "address_lon": 76.733675,
+  "promised_by": "2026-10-14 20:13:00",
+  "driver": {
+    "id": "DRV-727",
+    "name": "Anmol Grover",
+    "phone": "9000080601"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-14 12:33:53"
+}

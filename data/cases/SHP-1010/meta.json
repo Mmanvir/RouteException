@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1010",
+  "tracking_id": "RX10010",
+  "customer_first_name": "Tripti",
+  "address": "House 581, Silver Oak Phase 2, Navpur",
+  "gate_number": "581",
+  "address_lat": 30.737425,
+  "address_lon": 76.71427,
+  "promised_by": "2026-10-22 20:04:00",
+  "driver": {
+    "id": "DRV-474",
+    "name": "Alka Zachariah",
+    "phone": "9000053214"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-22 12:21:43",
+  "driver_note_recorded_at": "2026-10-22 12:20:43",
+  "transcript_is_cached": true
+}

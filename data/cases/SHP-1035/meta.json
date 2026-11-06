@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1035",
+  "tracking_id": "RX10035",
+  "customer_first_name": "Upasna",
+  "address": "House 238, Lotus Vihar, Navpur",
+  "gate_number": "238",
+  "address_lat": 30.71108,
+  "address_lon": 76.73054,
+  "promised_by": "2026-10-20 05:08:00",
+  "driver": {
+    "id": "DRV-763",
+    "name": "Yagnesh Saraf",
+    "phone": "9000039325"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-21 21:03:17"
+}

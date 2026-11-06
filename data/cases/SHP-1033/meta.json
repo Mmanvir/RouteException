@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-1033",
+  "tracking_id": "RX10033",
+  "customer_first_name": "Daksha",
+  "address": "House 738, Silver Oak Phase 2, Navpur",
+  "gate_number": "738",
+  "address_lat": 30.696667,
+  "address_lon": 76.682597,
+  "promised_by": "2026-10-05 20:23:00",
+  "driver": {
+    "id": "DRV-794",
+    "name": "Yashodhara Doctor",
+    "phone": "9000069518"
+  },
+  "synthetic": true
+}

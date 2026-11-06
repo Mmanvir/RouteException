@@ -1,0 +1,5 @@
+timestamp,status,location,lat,lon
+2026-10-06 09:08:00,created,Navpur Sort Centre,,
+2026-10-06 11:15:00,picked_up,Navpur Sort Centre,,
+2026-10-06 17:16:00,in_transit,Orchid Residency Hub,,
+2026-10-09 13:32:47,out_for_delivery,Orchid Residency Hub,,

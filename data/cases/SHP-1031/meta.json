@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1031",
+  "tracking_id": "RX10031",
+  "customer_first_name": "Avni",
+  "address": "House 198, Riverside Block, Navpur",
+  "gate_number": "198",
+  "address_lat": 30.673065,
+  "address_lon": 76.719722,
+  "promised_by": "2026-10-13 20:26:00",
+  "driver": {
+    "id": "DRV-864",
+    "name": "Vritti Edwin",
+    "phone": "9000018673"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-13 15:37:45"
+}

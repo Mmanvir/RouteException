@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-1018",
+  "tracking_id": "RX10018",
+  "customer_first_name": "Dakshesh",
+  "address": "House 31, Silver Oak Phase 2, Navpur",
+  "gate_number": "31",
+  "address_lat": 30.709838,
+  "address_lon": 76.698128,
+  "promised_by": "2026-10-19 06:28:00",
+  "driver": {
+    "id": "DRV-225",
+    "name": "Hemal Contractor",
+    "phone": "9000074909"
+  },
+  "synthetic": true
+}

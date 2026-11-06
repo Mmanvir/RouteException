@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-9001",
+  "tracking_id": "RX18001",
+  "customer_first_name": "Samaksh",
+  "address": "House 701, Riverside Block, Navpur",
+  "gate_number": "701",
+  "address_lat": 30.72439,
+  "address_lon": 76.706343,
+  "promised_by": "2026-10-26 19:40:00",
+  "driver": {
+    "id": "DRV-282",
+    "name": "Vedhika Ramachandran",
+    "phone": "9000042527"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-26 10:57:48",
+  "driver_note_recorded_at": "2026-10-26 10:58:48",
+  "transcript_is_cached": true
+}

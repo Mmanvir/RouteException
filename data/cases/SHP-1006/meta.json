@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-1006",
+  "tracking_id": "RX10006",
+  "customer_first_name": "Charles",
+  "address": "House 764, Orchid Residency, Navpur",
+  "gate_number": "764",
+  "address_lat": 30.706168,
+  "address_lon": 76.716499,
+  "promised_by": "2026-10-21 19:24:00",
+  "driver": {
+    "id": "DRV-859",
+    "name": "Inaya Arora",
+    "phone": "9000011904"
+  },
+  "synthetic": true
+}

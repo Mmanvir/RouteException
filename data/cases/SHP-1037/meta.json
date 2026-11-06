@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1037",
+  "tracking_id": "RX10037",
+  "customer_first_name": "Harshil",
+  "address": "House 652, Lotus Vihar, Navpur",
+  "gate_number": "652",
+  "address_lat": 30.708494,
+  "address_lon": 76.749857,
+  "promised_by": "2026-10-21 19:26:00",
+  "driver": {
+    "id": "DRV-816",
+    "name": "Gabriel Prasad",
+    "phone": "9000057586"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-21 13:41:48",
+  "driver_note_recorded_at": "2026-10-21 13:40:48",
+  "transcript_is_cached": true
+}

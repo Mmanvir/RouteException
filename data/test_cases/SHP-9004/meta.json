@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-9004",
+  "tracking_id": "RX18004",
+  "customer_first_name": "Urvashi",
+  "address": "House 570, Lotus Vihar, Navpur",
+  "gate_number": "570",
+  "address_lat": 30.753215,
+  "address_lon": 76.734272,
+  "promised_by": "2026-10-19 20:03:00",
+  "driver": {
+    "id": "DRV-291",
+    "name": "Karan Wagle",
+    "phone": "9000028593"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-19 14:14:23",
+  "driver_note_recorded_at": "2026-10-19 14:17:23",
+  "transcript_is_cached": true
+}

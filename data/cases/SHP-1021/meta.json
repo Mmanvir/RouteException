@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1021",
+  "tracking_id": "RX10021",
+  "customer_first_name": "Jacob",
+  "address": "House 611, Lotus Vihar, Navpur",
+  "gate_number": "611",
+  "address_lat": 30.740698,
+  "address_lon": 76.714464,
+  "promised_by": "2026-10-25 20:07:00",
+  "driver": {
+    "id": "DRV-405",
+    "name": "Bhavani Kalita",
+    "phone": "9000046810"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-25 15:02:41",
+  "driver_note_recorded_at": "2026-10-25 15:05:41",
+  "transcript_is_cached": true
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Track your parcel · RouteException</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#14181f; --muted:#5c6573; --line:#e3e6eb;
+          --accent:#1f5eff; --accent-ink:#fff; --warn-bg:#fff6e5; --warn-ink:#7a4b00; --ok:#0d7a4f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1217; --card:#171b22; --ink:#e8ebf0; --muted:#9aa3b2; --line:#2a303a;
+            --accent:#6f95ff; --accent-ink:#0f1217; --warn-bg:#2b2214; --warn-ink:#f3c27a; --ok:#4fd3a0; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:24px 16px 64px; }
+  header { display:flex; align-items:center; gap:10px; margin-bottom:20px; }
+  .logo { width:34px; height:34px; border-radius:9px; background:var(--accent); color:var(--accent-ink);
+          display:grid; place-items:center; font-weight:700; }
+  h1 { font-size:20px; margin:0; } .tid { color:var(--muted); font-size:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:14px; }
+  .update time { display:block; color:var(--muted); font-size:13px; margin-bottom:6px; }
+  .update p { margin:0 0 10px; } audio { width:100%; }
+  .empty { color:var(--muted); }
+  h2 { font-size:16px; margin:0 0 6px; }
+  textarea { width:100%; min-height:110px; border:1px solid var(--line); border-radius:10px; padding:10px;
+             background:var(--bg); color:var(--ink); font:inherit; }
+  button { margin-top:10px; background:var(--accent); color:var(--accent-ink); border:0; border-radius:10px;
+           padding:11px 16px; font:600 15px system-ui; cursor:pointer; }
+  button:disabled { opacity:.6; }
+  .notice { background:var(--warn-bg); color:var(--warn-ink); border-radius:10px; padding:12px; font-size:14px; }
+  .ok { color:var(--ok); font-weight:600; }
+  a { color:var(--accent); }
+  details summary { cursor:pointer; font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo">R</div>
+    <div><h1>Your delivery updates</h1><div class="tid" id="tid"></div></div>
+  </header>
+
+  <section id="updates"><div class="card empty">Loading…</div></section>
+
+  <section class="card">
+    <details id="fraud">
+      <summary>Report a problem or suspected fraud</summary>
+      <p class="tid">We will prepare an evidence pack (PDF) with your delivery timeline, the proof-of-delivery
+        photo and the updates we sent you. We do not contact the police or accuse anyone on your behalf — you
+        stay in control of any complaint.</p>
+      <textarea id="desc" placeholder="Tell us what happened (at least 10 characters)"></textarea>
+      <button id="send">Create evidence pack</button>
+      <div id="result"></div>
+    </details>
+  </section>
+</main>
+<script>
+const tid = decodeURIComponent(location.pathname.split("/").filter(Boolean).pop());
+document.getElementById("tid").textContent = "Tracking ID " + tid;
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+async function load() {
+  const box = document.getElementById("updates");
+  const r = await fetch(`/api/customer/${encodeURIComponent(tid)}`);
+  if (!r.ok) { box.innerHTML = `<div class="card empty">We could not find this tracking ID.</div>`; return; }
+  const data = await r.json();
+  if (!data.updates.length) {
+    box.innerHTML = `<div class="card empty">No updates yet. When our team has news about your parcel it will appear here.</div>`;
+    return;
+  }
+  box.innerHTML = data.updates.map(u => `
+    <article class="card update">
+      <time>${esc(u.sent_at)}</time>
+      <p>${esc(u.text)}</p>
+      ${u.audio_url ? `<audio controls preload="none" src="${u.audio_url}"></audio>` : ""}
+    </article>`).join("");
+}
+
+document.getElementById("send").onclick = async () => {
+  const btn = document.getElementById("send"), out = document.getElementById("result");
+  const description = document.getElementById("desc").value.trim();
+  if (description.length < 10) { out.innerHTML = `<p class="notice">Please describe the problem in a little more detail.</p>`; return; }
+  btn.disabled = true; btn.textContent = "Preparing…";
+  const r = await fetch(`/api/customer/${encodeURIComponent(tid)}/fraud-report`, {
+    method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({description})
+  });
+  btn.disabled = false; btn.textContent = "Create evidence pack";
+  if (!r.ok) { out.innerHTML = `<p class="notice">Something went wrong. Please try again.</p>`; return; }
+  const d = await r.json();
+  out.innerHTML = `
+    <p class="ok">Your evidence pack is ready.</p>
+    <p><a href="${d.evidence_pack_url}" target="_blank" rel="noopener">Download evidence pack (PDF)</a></p>
+    <div class="notice">${esc(d.note)}<br>
+      To file a complaint: call the National Cyber Crime Helpline <b>${esc(d.helpline)}</b>
+      or visit <a href="${d.portal}" target="_blank" rel="noopener">${esc(d.portal.replace("https://",""))}</a>
+      and attach the PDF.</div>`;
+};
+load();
+</script>
+</body>
+</html>

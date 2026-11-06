@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-9010",
+  "tracking_id": "RX18010",
+  "customer_first_name": "Kalpit",
+  "address": "House 126, Orchid Residency, Navpur",
+  "gate_number": "126",
+  "address_lat": 30.698842,
+  "address_lon": 76.717656,
+  "promised_by": "2026-10-20 19:53:00",
+  "driver": {
+    "id": "DRV-639",
+    "name": "Arya Andra",
+    "phone": "9000099659"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-20 12:23:34"
+}

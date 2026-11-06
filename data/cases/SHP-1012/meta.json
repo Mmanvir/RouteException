@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1012",
+  "tracking_id": "RX10012",
+  "customer_first_name": "Matthew",
+  "address": "House 771, Silver Oak Phase 2, Navpur",
+  "gate_number": "771",
+  "address_lat": 30.69612,
+  "address_lon": 76.747615,
+  "promised_by": "2026-10-27 20:23:00",
+  "driver": {
+    "id": "DRV-292",
+    "name": "Ojasvi Bhattacharyya",
+    "phone": "9000090603"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-27 14:04:49",
+  "driver_note_recorded_at": "2026-10-27 14:07:49",
+  "transcript_is_cached": true
+}

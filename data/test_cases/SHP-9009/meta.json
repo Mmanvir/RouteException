@@ -1,0 +1,16 @@
+{
+  "shipment_id": "SHP-9009",
+  "tracking_id": "RX18009",
+  "customer_first_name": "Balendra",
+  "address": "House 119, Riverside Block, Navpur",
+  "gate_number": "119",
+  "address_lat": 30.689509,
+  "address_lon": 76.735028,
+  "promised_by": "2026-10-14 19:19:00",
+  "driver": {
+    "id": "DRV-119",
+    "name": "Gunbir Manda",
+    "phone": "9000017534"
+  },
+  "synthetic": true
+}

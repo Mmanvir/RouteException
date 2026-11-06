@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1017",
+  "tracking_id": "RX10017",
+  "customer_first_name": "Vrinda",
+  "address": "House 299, Kesar Gardens, Navpur",
+  "gate_number": "299",
+  "address_lat": 30.677268,
+  "address_lon": 76.71607,
+  "promised_by": "2026-10-10 05:42:00",
+  "driver": {
+    "id": "DRV-439",
+    "name": "Gaurika Nigam",
+    "phone": "9000033480"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-12 00:39:34"
+}

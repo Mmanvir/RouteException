@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1019",
+  "tracking_id": "RX10019",
+  "customer_first_name": "Chasmum",
+  "address": "House 260, Silver Oak Phase 2, Navpur",
+  "gate_number": "260",
+  "address_lat": 30.704576,
+  "address_lon": 76.720089,
+  "promised_by": "2026-10-07 20:26:00",
+  "driver": {
+    "id": "DRV-121",
+    "name": "Fitan Mital",
+    "phone": "9000065340"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-07 14:01:58",
+  "driver_note_recorded_at": "2026-10-07 14:02:58",
+  "transcript_is_cached": true
+}

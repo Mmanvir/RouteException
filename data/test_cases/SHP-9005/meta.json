@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-9005",
+  "tracking_id": "RX18005",
+  "customer_first_name": "Wridesh",
+  "address": "House 826, Orchid Residency, Navpur",
+  "gate_number": "826",
+  "address_lat": 30.668977,
+  "address_lon": 76.73808,
+  "promised_by": "2026-10-20 20:07:00",
+  "driver": {
+    "id": "DRV-765",
+    "name": "Charles Goswami",
+    "phone": "9000010558"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-20 11:55:53"
+}

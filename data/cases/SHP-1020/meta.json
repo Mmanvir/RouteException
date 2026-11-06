@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-1020",
+  "tracking_id": "RX10020",
+  "customer_first_name": "Tanmayi",
+  "address": "House 19, Silver Oak Phase 2, Navpur",
+  "gate_number": "19",
+  "address_lat": 30.745358,
+  "address_lon": 76.710692,
+  "promised_by": "2026-10-04 20:19:00",
+  "driver": {
+    "id": "DRV-602",
+    "name": "Bhavani Varghese",
+    "phone": "9000035216"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-04 13:13:13"
+}

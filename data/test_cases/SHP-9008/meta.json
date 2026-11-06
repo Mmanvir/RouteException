@@ -1,0 +1,17 @@
+{
+  "shipment_id": "SHP-9008",
+  "tracking_id": "RX18008",
+  "customer_first_name": "Maanav",
+  "address": "House 341, Sunrise Colony, Navpur",
+  "gate_number": "341",
+  "address_lat": 30.725001,
+  "address_lon": 76.72358,
+  "promised_by": "2026-10-11 19:34:00",
+  "driver": {
+    "id": "DRV-148",
+    "name": "Dhruv Kapur",
+    "phone": "9000023165"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-11 11:52:38"
+}

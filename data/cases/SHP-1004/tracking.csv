@@ -1,0 +1,6 @@
+timestamp,status,location,lat,lon
+2026-10-11 09:43:00,created,Navpur Sort Centre,,
+2026-10-11 11:46:00,picked_up,Navpur Sort Centre,,
+2026-10-11 18:08:00,in_transit,Silver Oak Phase 2 Hub,,
+2026-10-12 09:33:37,out_for_delivery,Silver Oak Phase 2 Hub,,
+2026-10-12 11:27:37,delivered,Silver Oak Phase 2,30.718298,76.747131

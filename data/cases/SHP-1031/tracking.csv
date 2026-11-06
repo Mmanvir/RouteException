@@ -1,0 +1,6 @@
+timestamp,status,location,lat,lon
+2026-10-12 10:26:00,created,Navpur Sort Centre,,
+2026-10-12 12:47:00,picked_up,Navpur Sort Centre,,
+2026-10-12 18:26:00,in_transit,Riverside Block Hub,,
+2026-10-13 10:42:55,out_for_delivery,Riverside Block Hub,,
+2026-10-13 15:34:45,delivered,Riverside Block,30.672619,76.719626

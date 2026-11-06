@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1001",
+  "tracking_id": "RX10001",
+  "customer_first_name": "Varsha",
+  "address": "House 674, Maple Nagar, Navpur",
+  "gate_number": "674",
+  "address_lat": 30.700039,
+  "address_lon": 76.748614,
+  "promised_by": "2026-10-04 19:32:00",
+  "driver": {
+    "id": "DRV-301",
+    "name": "Bhavika Hegde",
+    "phone": "9000019692"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-04 13:42:20",
+  "driver_note_recorded_at": "2026-10-04 13:46:20",
+  "transcript_is_cached": true
+}

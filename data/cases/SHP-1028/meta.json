@@ -1,0 +1,19 @@
+{
+  "shipment_id": "SHP-1028",
+  "tracking_id": "RX10028",
+  "customer_first_name": "Brijesh",
+  "address": "House 695, Sunrise Colony, Navpur",
+  "gate_number": "695",
+  "address_lat": 30.667118,
+  "address_lon": 76.701514,
+  "promised_by": "2026-10-21 19:28:00",
+  "driver": {
+    "id": "DRV-103",
+    "name": "Dev Brar",
+    "phone": "9000027969"
+  },
+  "synthetic": true,
+  "photo_taken_at": "2026-10-21 13:21:42",
+  "driver_note_recorded_at": "2026-10-21 13:24:42",
+  "transcript_is_cached": true
+}
